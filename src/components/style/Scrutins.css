@@ -1,36 +1,29 @@
-h1{
+h1 {
   text-align: center;
+  margin-top: 20px;
 }
 
-.scrutins-table{
-  width: 80%;
+.scrutins-table {
+  margin: 0 auto;
+  width: 90%;
   border-collapse: collapse;
-  margin-top: 1rem;
-  font-family: Arial, sans-serif;
-  font-size: 0.95rem;
-}
-
-.scrutins-table thead {
-  background-color: #f5f5f5;
 }
 
 .scrutins-table th,
 .scrutins-table td {
+  padding: 12px;
   border: 1px solid #ddd;
-  padding: 0.75rem;
-  text-align: left;
+  text-align: center;
 }
 
 .scrutins-table th {
   background-color: #f4f4f4;
   font-weight: bold;
-  color: #333;
 }
 
-.scrutins-table td {
-  background-color: #fff;
-}
-
-.scrutins-table tr {
-  cursor: pointer;
+.pink-button {
+  --background: #f8c6dc;
+  --color: black;
+  --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
 }

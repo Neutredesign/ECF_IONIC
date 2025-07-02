@@ -1,6 +1,9 @@
-Chrome >=79
-ChromeAndroid >=79
-Firefox >=70
-Edge >=79
-Safari >=14
-iOS >=14
+# Navigateurs desktop
+Chrome >= 90
+Firefox >= 88
+Edge >= 90
+Safari >= 14
+
+# Navigateurs mobiles
+iOS >= 14
+ChromeAndroid >= 90
